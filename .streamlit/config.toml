@@ -1,0 +1,14 @@
+[server]
+
+maxuploadsize = 1024
+maxmessagesize =1024
+
+[theme]
+PrimaryColor = "#3e768a"
+backgroundcolor = "#ececec"
+secondarybackgroundoclor = "#e4e4e4"
+textcolor = "#000000ff"
+font = "sans serif"
+
+
+

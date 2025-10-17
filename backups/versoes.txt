@@ -1,0 +1,7 @@
+'versoes
+
+1 - feita diretamente pelo curso ambigeo
+
+1.1 - melhorada pelo gpt, indicacoes e localizacoes no codigo mais clara, continuada pelo ambigeo a partir da aula 1.9
+
+1.2 - estrutura finalizada e agora revisada novamente pelo chat GPT para melhorar a clareza e organizacao do codigo
