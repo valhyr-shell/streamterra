@@ -416,3 +416,16 @@ else:
     )
     fig_bar_estados_seguros.update_layout(xaxis_tickangle=-45)
     st.plotly_chart(fig_bar_estados_seguros, use_container_width=True, key="grafico_estados_seguros")
+
+import streamlit as st
+import logging
+
+logging.basicConfig(level=logging.INFO)  # ativa logs detalhados
+st.write("App carregando...")
+
+# exemplo
+try:
+    import pandas as pd
+    st.write("Pandas OK")
+except Exception as e:
+    st.error(f"Erro ao importar pandas: {e}")
