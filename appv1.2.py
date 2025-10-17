@@ -1,5 +1,17 @@
 # app.py — Versão organizada e comentada
+import logging
+logging.basicConfig(level=logging.INFO)
 
+st.write("🔄 App iniciando...")
+
+try:
+    import pandas as pd
+    import geopandas as gpd
+    import plotly.express as px
+    import folium
+    st.write("✅ Bibliotecas carregadas")
+except Exception as e:
+    st.error(f"Erro ao importar bibliotecas: {e}")
 import os
 import streamlit as st
 import geopandas as gpd
