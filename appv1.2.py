@@ -9,10 +9,6 @@ from streamlit_folium import folium_static
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 
-# Ativa logs
-logging.basicConfig(level=logging.INFO)
-st.write("🔄 App iniciando...")
-
 # ===========================================================
 # CONFIGURAÇÃO INICIAL
 # ===========================================================
